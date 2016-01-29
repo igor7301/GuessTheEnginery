@@ -1,6 +1,5 @@
 package com.guessenginery.guesstheenginery;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,8 +14,7 @@ import android.support.v4.app.FragmentActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.*;
-import com.startapp.android.publish.Ad;
-import com.startapp.android.publish.AdEventListener;
+
 import com.startapp.android.publish.StartAppAd;
 
 import java.util.*;
@@ -105,8 +103,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         pictures = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.pictures, TEMPLATE + level);
 
         if (city) {
-            pictures_name = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.city_names);
-            pictures_hints = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.city_hints);
+            pictures_name = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.enginery_names);
+            pictures_hints = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.enginery_hints);
         } else {
             pictures_name = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.country_names);
             pictures_hints = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.country_hints);

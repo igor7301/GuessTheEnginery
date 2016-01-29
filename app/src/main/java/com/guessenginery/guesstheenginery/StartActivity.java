@@ -20,8 +20,7 @@ import com.startapp.android.publish.StartAppSDK;
 public class StartActivity extends FragmentActivity implements View.OnClickListener {
 
     Button btnStartGame, btnSettings;
-    private SharedPreferences mSettings;
-    private SharedPreferences.Editor editor;
+
     private StartAppAd startAppAd = new StartAppAd(this);
 
     @Override
@@ -34,18 +33,8 @@ public class StartActivity extends FragmentActivity implements View.OnClickListe
 
         setContentView(R.layout.start_activity);
         btnStartGame = (Button) findViewById(R.id.buttonStartGame);
-        btnSettings = (Button) findViewById(R.id.buttonSettings);
-
         btnStartGame.setOnClickListener(this);
-        btnSettings.setOnClickListener(this);
 
-
-
-
-        mSettings = getSharedPreferences(getResources().getString(R.string.APP_PREFERENCES).toString(), Context.MODE_PRIVATE);
-        editor = mSettings.edit();
-        editor.putBoolean(getResources().getString(R.string.APP_PREFERENCES_CITY_GAME).toString(), true);
-        editor.apply();
     }
 
     @Override
@@ -63,9 +52,7 @@ public class StartActivity extends FragmentActivity implements View.OnClickListe
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.buttonSettings:
-                startActivity(new Intent(this, SettingsActivity.class));
-                break;
+
 
         }
     }

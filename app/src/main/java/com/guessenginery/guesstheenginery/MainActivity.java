@@ -84,7 +84,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
         mSettings = getSharedPreferences(getResources().getString(R.string.APP_PREFERENCES).toString(), Context.MODE_PRIVATE);
         editor = mSettings.edit();
-        Boolean city = mSettings.getBoolean(getResources().getString(R.string.APP_PREFERENCES_CITY_GAME).toString(), true);
         Integer level = mSettings.getInt(getResources().getString(R.string.APP_PREFERENCES_CURRENT_LEVEL), 1);
         setCurrentLevel(level);
 
@@ -102,13 +101,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
         pictures = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.pictures, TEMPLATE + level);
 
-        if (city) {
+
             pictures_name = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.enginery_names);
             pictures_hints = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.enginery_hints);
-        } else {
-            pictures_name = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.country_names);
-            pictures_hints = (HashMap<String, String>) ResourceUtils.getHashMapResource(this, R.xml.country_hints);
-        }
 
 
         updateLives(LIVES);

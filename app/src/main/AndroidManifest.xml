@@ -32,8 +32,6 @@
 
         <activity android:name="com.guessenginery.guesstheenginery.MainActivity"
             android:screenOrientation="landscape"/>
-        <activity android:name="com.guessenginery.guesstheenginery.SettingsActivity"
-            android:screenOrientation="landscape"/>
         <activity android:name="com.guessenginery.guesstheenginery.LevelUpActivity"
             android:screenOrientation="landscape"/>
 

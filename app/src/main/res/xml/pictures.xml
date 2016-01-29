@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="pictures_file_names">
+
+        <!--Level1-->
+        <entry key="1">abrams_level1</entry>
+        <entry key="2">e75_level1</entry>
+        <entry key="3">is2_level1</entry>
+        <entry key="4">isu152_level1</entry>
+        <entry key="5">leklerk_amx_56_level1</entry>
+        <entry key="6">leopard1_level1</entry>
+        <entry key="7">leopard2_level1</entry>
+        <entry key="8">t54_level1</entry>
+        <entry key="9">t70_level1</entry>
+        <entry key="10">t90_level1</entry>
+
+        <!--Level2-->
+        <entry key="11">f18hornet_level2</entry>
+        <entry key="12">f117_nighthawk_level2</entry>
+        <entry key="13">mig21_level2</entry>
+        <entry key="14">su27_level2</entry>
+        <entry key="15">su47_level2</entry>
+        <entry key="16">tu160_level2</entry>
+        <entry key="17">b52_level2</entry>
+        <entry key="18">rafale_level2</entry>
+        <entry key="19">mig35_level2</entry>
+        <entry key="20">f35_level2</entry>
+
+
+        <entry key="21">ah_64_apache_level3</entry>
+        <entry key="22">ah6_little_bird_level3</entry>
+        <entry key="23">ch47_chinook_level3</entry>
+        <entry key="24">ch53k_king_stallion_level3</entry>
+        <entry key="25">ka32_level3</entry>
+        <entry key="26">ka52_alligator_level3</entry>
+        <entry key="27">mi8_level3</entry>
+        <entry key="28">mi26_level3</entry>
+        <entry key="29">mi28h_night_hawk_level3</entry>
+        <entry key="30">uh1_irokez_level3</entry>
+</map>

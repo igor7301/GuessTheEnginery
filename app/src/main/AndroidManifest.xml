@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guessenginery.guesstheenginery"
+
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:icon="@drawable/icon"
+        android:keepScreenOn="true">
+
+
+        <activity android:name="com.guessenginery.guesstheenginery.StartActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.guessenginery.guesstheenginery.MainActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.guessenginery.guesstheenginery.SettingsActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="com.guessenginery.guesstheenginery.LevelUpActivity"
+            android:screenOrientation="landscape"/>
+
+
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+
+        <activity android:name="com.startapp.android.publish.OverlayActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <activity android:name="com.startapp.android.publish.FullScreenActivity"
+            android:theme="@android:style/Theme"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+
+        <activity
+            android:name="ru.ok.android.sdk.OkAuthActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="ok1150431488"
+                    android:scheme="okauth" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    </application>
+
+
+</manifest>
+

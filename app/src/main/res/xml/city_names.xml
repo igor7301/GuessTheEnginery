@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="city">
+    <entry key="1">Абрамс</entry>
+    <entry key="2">Е75</entry>
+    <entry key="3">ИС-2</entry>
+    <entry key="4">ИСУ-152</entry>
+    <entry key="5">Леклерк АМХ56</entry>
+    <entry key="6">Леопард1</entry>
+    <entry key="7">Леопард2</entry>
+    <entry key="8">Т54</entry>
+    <entry key="9">Т70</entry>
+    <entry key="10">Т90</entry>
+
+
+    <entry key="11">F-18</entry>
+    <entry key="12">F-117</entry>
+    <entry key="13">Миг-21</entry>
+    <entry key="14">Су-27</entry>
+    <entry key="15">Су-47</entry>
+    <entry key="16">Ту-160</entry>
+    <entry key="17">B-52</entry>
+    <entry key="18">Рафаль</entry>
+    <entry key="19">Миг-35</entry>
+    <entry key="20">F-35</entry>
+
+    <entry key="21">Апач</entry>
+    <entry key="22">Литл берд</entry>
+    <entry key="23">Чинук</entry>
+    <entry key="24">CH-53K</entry>
+    <entry key="25">КА-32</entry>
+    <entry key="26">КА-52 Аллигатор</entry>
+    <entry key="27">МИ-8</entry>
+    <entry key="28">МИ-26</entry>
+    <entry key="29">МИ-28 Ночной охотник</entry>
+    <entry key="30">UH1 Ирокез</entry>
+
+
+</map>

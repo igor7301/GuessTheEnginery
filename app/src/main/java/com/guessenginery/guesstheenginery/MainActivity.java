@@ -43,7 +43,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private final static Integer LIVES = 3;
     private Bundle savedInstanceState;
     private final static String TEMPLATE = "_level";
-    private final static List<Integer> AVAILABLE_LEVELS = Arrays.asList(1, 2, 3);
+    private final static List<Integer> AVAILABLE_LEVELS = Arrays.asList(1, 2, 3, 4);
     private TextView textViewLevelInfo;
     private StartAppAd startAppAd = new StartAppAd(this);
 
